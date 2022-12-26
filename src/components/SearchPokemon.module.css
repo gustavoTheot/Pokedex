@@ -1,0 +1,34 @@
+.containerFormPokemon img{
+    width: 30rem;
+}
+
+.formPokemon{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+
+    margin: 1rem 0;
+}
+
+.formPokemon input{
+    width: 22.3rem;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    outline: none;
+}
+
+.formPokemon button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    color: var(--gray-100);
+    background-color: var(--red);
+}
+
+.formPokemon button:disabled{
+    cursor: not-allowed;
+    background-color: var(--dark-red);
+}

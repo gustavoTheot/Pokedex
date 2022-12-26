@@ -1,0 +1,21 @@
+.wrapper{
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 87.5%;
+    }
+    .wrapper{
+        grid-template-columns: 30rem;
+    }
+}

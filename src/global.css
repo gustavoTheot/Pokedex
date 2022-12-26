@@ -1,0 +1,27 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --purple: #792BDD;
+    --blue: #2BDDDD;
+    --red: #F96A6A;
+    --dark-red: #DB5353;
+    
+    --gray-100: #FFFFFF;
+    --gray-200: #EBEBEB;
+    --gray-300: #D6D6D6;
+    --gray-400: #BDBDBD;
+    --gray-900: #404040;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(var(--purple), var(--blue));
+    background-repeat: no-repeat;
+    background-size:cover;
+}
